@@ -26,7 +26,7 @@ const Topic = ({onUserSelect}) => {
                     <SelectValue placeholder="Theme" />
                 </SelectTrigger>
                 <SelectContent>
-                    {options.map((option, index) =><SelectItem key={index}  value={option}>{option}</SelectItem>)}
+                    {options.map((option, index) =><SelectItem key={index} value={option}>{option}</SelectItem>)}
                 </SelectContent>
             </Select>
             {selectedOption === "Custom Prompt"&& 

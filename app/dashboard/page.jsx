@@ -1,7 +1,6 @@
 "use client"
 import { Button } from '@/components/ui/button';
 import React, { useState } from 'react';
-import EmptySlot from './_components/EmptySlot';
 import Link from 'next/link';
 
 const Dashboard = () => {
